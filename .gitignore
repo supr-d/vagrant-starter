@@ -1,3 +1,6 @@
+# cached vagrant paths
+paths.json
+
 .DS_Store
 
 # PyCharm
