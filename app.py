@@ -13,7 +13,7 @@ def readPathsFromCache():
     try:
         with open('paths.json') as paths_file:
             return json.load(paths_file)
-    except Exception as e:
+    except Exception:
         pass
 
 def writePathsToCache(data):
